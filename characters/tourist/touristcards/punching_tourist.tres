@@ -6,12 +6,13 @@
 
 [sub_resource type="Resource" id="Resource_twwan"]
 script = ExtResource("2_c5o6c")
-amount = 10
+amount = 6
 metadata/_custom_type_script = "uid://dmpv8844g3q0f"
 
 [resource]
 script = ExtResource("3_noata")
 card_name = "punching"
+stamina_cost = 1
 recovery_cost = 2
 effects = Array[ExtResource("1_hsdbj")]([SubResource("Resource_twwan")])
 metadata/_custom_type_script = "uid://b4g0am8tdx6m7"

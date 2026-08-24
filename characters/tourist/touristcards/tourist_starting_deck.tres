@@ -4,9 +4,9 @@
 [ext_resource type="Resource" uid="uid://cs1vxgii2b1ip" path="res://characters/tourist/touristcards/punching_tourist.tres" id="2_q2dpg"]
 [ext_resource type="Script" uid="uid://b7gxswfche1cy" path="res://custom resources/card_pile.gd" id="2_q2i58"]
 [ext_resource type="Resource" uid="uid://ce4cu64fxrraf" path="res://characters/tourist/touristcards/block_tourist.tres" id="3_lf06l"]
-[ext_resource type="Resource" uid="uid://cvbd3mwm2pglh" path="res://characters/tourist/touristcards/draw_tourist.tres" id="3_q2dpg"]
+[ext_resource type="Resource" uid="uid://857pvun366vv" path="res://characters/tourist/touristcards/kicking_tourist.tres" id="4_q2dpg"]
 
 [resource]
 script = ExtResource("2_q2i58")
-cards = Array[ExtResource("1_do0g8")]([ExtResource("2_q2dpg"), ExtResource("3_lf06l"), ExtResource("2_q2dpg"), ExtResource("3_q2dpg"), ExtResource("3_q2dpg"), ExtResource("2_q2dpg"), ExtResource("3_lf06l"), ExtResource("3_lf06l"), ExtResource("2_q2dpg"), ExtResource("3_lf06l"), ExtResource("3_q2dpg")])
+cards = Array[ExtResource("1_do0g8")]([ExtResource("2_q2dpg"), ExtResource("2_q2dpg"), ExtResource("2_q2dpg"), ExtResource("2_q2dpg"), ExtResource("2_q2dpg"), ExtResource("3_lf06l"), ExtResource("3_lf06l"), ExtResource("3_lf06l"), ExtResource("3_lf06l"), ExtResource("4_q2dpg")])
 metadata/_custom_type_script = "uid://b7gxswfche1cy"

@@ -10,7 +10,6 @@
 [ext_resource type="Script" uid="uid://dwtw5u7l8uiv5" path="res://CardStuff/card.gd" id="8_1u6w6"]
 [ext_resource type="Script" uid="uid://b5myvxmry6cml" path="res://default_enemy.gd" id="8_emfdx"]
 [ext_resource type="Resource" uid="uid://bwe20136aixtf" path="res://characters/tourist/touristcards/tourist_starting_deck.tres" id="9_hvhqn"]
-[ext_resource type="Resource" uid="uid://b2m5jayhifcs5" path="res://characters/tourist/touristcards/tourist_starting_deck2.tres" id="9_rfwfw"]
 [ext_resource type="Script" uid="uid://b7gxswfche1cy" path="res://custom resources/card_pile.gd" id="11_4f3f8"]
 [ext_resource type="PackedScene" uid="uid://1uaqytmxr4de" path="res://scenes/stamina_ui.tscn" id="11_emfdx"]
 [ext_resource type="PackedScene" uid="uid://dwsjgd3bmp76l" path="res://turn_ui.tscn" id="14_th5m4"]
@@ -67,7 +66,7 @@ enemy = NodePath("badGuy")
 metadata/_custom_type_script = "uid://yt5bgjthmi7b"
 
 [node name="Character" parent="BattleState" unique_id=1903320986 node_paths=PackedStringArray("battle_state") instance=ExtResource("4_0yjdt")]
-position = Vector2(400, 323)
+position = Vector2(190, 396)
 scale = Vector2(0.5, 0.5)
 stats = ExtResource("6_hvhqn")
 myname = "goodguy"
@@ -83,7 +82,7 @@ scale = Vector2(0.5, 0.5)
 stats = ExtResource("6_hvhqn")
 ai_behavior = SubResource("Resource_rfwfw")
 myname = "badguy"
-starting_deck = ExtResource("9_rfwfw")
+starting_deck = ExtResource("9_hvhqn")
 draw_pile = SubResource("Resource_r7yem")
 discard_pile = SubResource("Resource_mv28p")
 hand_pile = SubResource("Resource_mgs5k")

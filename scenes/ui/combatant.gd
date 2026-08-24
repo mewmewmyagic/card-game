@@ -43,6 +43,7 @@ func _ready() -> void:
 func build_deck() -> void:
 	for card in starting_deck.cards:
 		draw_pile.add_card(card.duplicate())
+	draw_pile.shuffle()
 
 func discard_hand() -> void:
 	if hand_pile.empty():
