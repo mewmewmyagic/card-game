@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="CardPile" format=3 uid="uid://b2m5jayhifcs5"]
+
+[ext_resource type="Script" uid="uid://dwtw5u7l8uiv5" path="res://CardStuff/card.gd" id="1_u45js"]
+[ext_resource type="Resource" uid="uid://cvbd3mwm2pglh" path="res://characters/tourist/touristcards/draw_tourist.tres" id="2_u45js"]
+[ext_resource type="Script" uid="uid://b7gxswfche1cy" path="res://custom resources/card_pile.gd" id="3_i0wx8"]
+[ext_resource type="Resource" uid="uid://ce4cu64fxrraf" path="res://characters/tourist/touristcards/block_tourist.tres" id="3_j8p1x"]
+
+[resource]
+script = ExtResource("3_i0wx8")
+cards = Array[ExtResource("1_u45js")]([ExtResource("2_u45js"), ExtResource("3_j8p1x"), ExtResource("3_j8p1x"), ExtResource("3_j8p1x"), ExtResource("3_j8p1x"), ExtResource("3_j8p1x"), ExtResource("3_j8p1x"), ExtResource("2_u45js"), ExtResource("2_u45js"), ExtResource("2_u45js"), ExtResource("2_u45js")])
+metadata/_custom_type_script = "uid://b7gxswfche1cy"
