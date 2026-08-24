@@ -1,0 +1,6 @@
+res://scenes/BatttleScene.tscn
+res://Scripts/combatant_characters/tourist/touristcards/tourist_cards/draw_tourist.tres
+res://Scripts/combatant_characters/tourist/touristcards/tourist_cards/block_tourist.tres
+res://Scripts/combatant_characters/tourist/touristcards/tourist_starting_deck.tres
+res://Scripts/combatant_characters/tourist/touristcards/tourist_cards/punching_tourist.tres
+res://Scripts/combatant_characters/tourist/touristcards/tourist_cards/tourist_starting_deck.tres

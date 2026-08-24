@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b1ryleahhgw4h"]
 
-[ext_resource type="Script" uid="uid://c35c0h4wv2h78" path="res://scenes/ui/stats_ui.gd" id="1_503uq"]
+[ext_resource type="Script" uid="uid://c35c0h4wv2h78" path="res://Scripts/combatant/combantUI/stats_ui.gd" id="1_503uq"]
 
 [node name="StatsUI" type="HBoxContainer" unique_id=43148091]
 offset_right = 40.0

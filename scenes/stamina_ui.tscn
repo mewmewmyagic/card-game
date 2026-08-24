@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://1uaqytmxr4de"]
 
-[ext_resource type="Script" uid="uid://dk218p44x33hu" path="res://scenes/stamina_ui.gd" id="1_16rw6"]
+[ext_resource type="Script" uid="uid://dk218p44x33hu" path="res://Scripts/combatant/combantUI/stamina_ui.gd" id="1_16rw6"]
 
 [node name="StaminaUI" type="Control" unique_id=1157727669]
 layout_mode = 3
